@@ -1,4 +1,5 @@
 const { hairlineWidth } = require('nativewind/theme');
+const { token } = require('./lib/token');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -46,6 +47,7 @@ module.exports = {
         lg: 'var(--radius)',
         md: 'calc(var(--radius) - 2px)',
         sm: 'calc(var(--radius) - 4px)',
+        ...token.radii,
       },
       borderWidth: {
         hairline: hairlineWidth(),
@@ -64,6 +66,10 @@ module.exports = {
         'accordion-down': 'accordion-down 0.2s ease-out',
         'accordion-up': 'accordion-up 0.2s ease-out',
       },
+      spacing: token.spacing,
+      fontSize: token.typography,
+      transitionDuration: token.duration,
+      boxShadow: token.elevation,
     },
   },
   future: {

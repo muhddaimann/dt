@@ -1,0 +1,61 @@
+
+export const token = {
+  // https://tailwindcss.com/docs/customizing-spacing
+  spacing: {
+    '13': '3.25rem',
+    '15': '3.75rem',
+    '17': '4.25rem',
+    '18': '4.5rem',
+    '19': '4.75rem',
+    '21': '5.25rem',
+    '22': '5.5rem',
+    '23': '5.75rem',
+    '25': '6.25rem',
+    '26': '6.5rem',
+    '27': '6.75rem',
+    '29': '7.25rem',
+    '30': '7.5rem',
+    '31': '7.75rem',
+    '33': '8.25rem',
+    '34': '8.5rem',
+    '35': '8.75rem',
+    '37': '9.25rem',
+    '38': '9.5rem',
+    '39': '9.75rem',
+  },
+  // https://tailwindcss.com/docs/border-radius
+  radii: {
+    '4xl': '2rem',
+    '5xl': '2.5rem',
+    '6xl': '3rem',
+  },
+  // https://tailwindcss.com/docs/font-size
+  typography: {
+    'xs': ['0.75rem', '1rem'],
+    'sm': ['0.875rem', '1.25rem'],
+    'base': ['1rem', '1.5rem'],
+    'lg': ['1.125rem', '1.75rem'],
+    'xl': ['1.25rem', '1.75rem'],
+    '2xl': ['1.5rem', '2rem'],
+    '3xl': ['1.875rem', '2.25rem'],
+    '4xl': ['2.25rem', '2.5rem'],
+    '5xl': ['3rem', '1'],
+    '6xl': ['3.75rem', '1'],
+    '7xl': ['4.5rem', '1'],
+    '8xl': ['6rem', '1'],
+    '9xl': ['8rem', '1'],
+  },
+  // https://tailwindcss.com/docs/transition-duration
+  duration: {
+    '2000': '2000ms',
+    '3000': '3000ms',
+  },
+  // https://tailwindcss.com/docs/box-shadow
+  elevation: {
+    '1': '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
+    '2': '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
+    '3': '0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1)',
+    '4': '0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)',
+    '5': '0 25px 50px -12px rgb(0 0 0 / 0.25)',
+  },
+};
