@@ -3,10 +3,8 @@ dt/
 │  ├─ (tabs)/
 │  │  ├─ a/
 │  │  │  ├─ _layout.tsx
-│  │  │  └─ index.tsx
 │  │  ├─ b/
 │  │  │  ├─ _layout.tsx
-│  │  │  └─ index.tsx
 │  │  └─ _layout.tsx
 │  ├─ _layout.tsx
 │  └─ index.tsx
@@ -30,6 +28,7 @@ dt/
 │     ├─ listItem.tsx
 │     ├─ modal.tsx
 │     ├─ alertDialog.tsx
+│     ├─ toast.tsx
 │     ├─ formField.tsx
 │     ├─ searchBar.tsx
 │     ├─ toolbar.tsx
@@ -38,7 +37,9 @@ dt/
 │     ├─ progressSection.tsx
 │     └─ index.ts
 ├─ contexts/
+│  └─ overlayContext.tsx
 ├─ hooks/
+│  └─ useOverlay.tsx
 ├─ lib/
 │  ├─ theme.ts
 │  ├─ token.ts
