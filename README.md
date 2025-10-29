@@ -23,8 +23,8 @@ dt/
 │  │  ├─ input.tsx
 │  │  ├─ divider.tsx
 │  │  ├─ spinner.tsx
-│  │  └─ checkbox.tsx
-│  │
+│  │  ├─ checkbox.tsx
+│  │  └─ index.tsx
 │  └─ molecule/
 │     ├─ card.tsx
 │     ├─ listItem.tsx
@@ -35,7 +35,8 @@ dt/
 │     ├─ toolbar.tsx
 │     ├─ tabBar.tsx
 │     ├─ bottomSheet.tsx
-│     └─ progressSection.tsx
+│     ├─ progressSection.tsx
+│     └─ index.ts
 ├─ contexts/
 ├─ hooks/
 ├─ lib/
