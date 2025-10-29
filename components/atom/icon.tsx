@@ -1,6 +1,7 @@
 import { cn } from '@/lib/utils';
 import { cva, type VariantProps } from 'class-variance-authority';
 import type { LucideIcon, LucideProps } from 'lucide-react-native';
+import { useTheme } from '@react-navigation/native';
 
 const iconVariants = cva('text-foreground', {
   variants: {
@@ -21,8 +22,15 @@ type IconProps = Omit<LucideProps, 'size'> &
     as: LucideIcon;
   };
 
-function Icon({ as: IconComponent, className, size, ...props }: IconProps) {
-  return <IconComponent className={cn(iconVariants({ size }), className)} {...props} />;
+function Icon({ as: IconComponent, className, size, color, ...props }: IconProps) {
+  const { colors } = useTheme();
+  return (
+    <IconComponent
+      className={cn(iconVariants({ size }), className)}
+      color={color || colors.text}
+      {...props}
+    />
+  );
 }
 
 export { Icon };

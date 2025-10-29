@@ -1,6 +1,5 @@
 
 export const token = {
-  // https://tailwindcss.com/docs/customizing-spacing
   spacing: {
     '13': '3.25rem',
     '15': '3.75rem',
@@ -23,13 +22,11 @@ export const token = {
     '38': '9.5rem',
     '39': '9.75rem',
   },
-  // https://tailwindcss.com/docs/border-radius
   radii: {
     '4xl': '2rem',
     '5xl': '2.5rem',
     '6xl': '3rem',
   },
-  // https://tailwindcss.com/docs/font-size
   typography: {
     'xs': ['0.75rem', '1rem'],
     'sm': ['0.875rem', '1.25rem'],
@@ -45,12 +42,10 @@ export const token = {
     '8xl': ['6rem', '1'],
     '9xl': ['8rem', '1'],
   },
-  // https://tailwindcss.com/docs/transition-duration
   duration: {
     '2000': '2000ms',
     '3000': '3000ms',
   },
-  // https://tailwindcss.com/docs/box-shadow
   elevation: {
     '1': '0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1)',
     '2': '0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)',
